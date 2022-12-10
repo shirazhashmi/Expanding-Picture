@@ -15,7 +15,7 @@ body {
 
 .container {
     display: flex;
-    width: 90vw;
+    width: 60vw;
 }
 
 .panel {
@@ -23,7 +23,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-    border-radius: 50px;
+    border-radius: 60px;
     color: #fff;
     cursor: pointer;
     flex: 0.5;
@@ -33,10 +33,11 @@ body {
 }
 
 .panel h3{
-    font-size: 24px;
+    font-size: 22px;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 80px;
+    left: 40px;
+    right: 40px;
     margin: 0;
     opacity: 0;
 }
