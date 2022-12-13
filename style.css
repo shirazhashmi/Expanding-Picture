@@ -4,6 +4,7 @@
  box-sizing: border-box;   
 }
 body {
+    background-color: rgba(0, 0, 0, 0.9);
     font-family: 'Muli', sans-serif;
     display: flex;
     align-items: center;
@@ -36,7 +37,7 @@ body {
     font-size: 22px;
     position: absolute;
     bottom: 80px;
-    left: 40px;
+    left: 80px;
     right: 40px;
     margin: 0;
     opacity: 0;
@@ -52,9 +53,9 @@ body {
     transition: opacity 0.4s ease-in 0.5s;
 }
 
-@media(max-width: 480px) {
+@media(max-width: 1080px) {
     .container {
-        width: 100vw;
+        width: 1080vw;
     }
 
     .panel:nth-of-type(4), 
